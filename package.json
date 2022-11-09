@@ -1,0 +1,16 @@
+{
+  "name": "like",
+  "version": "1.0.0",
+  "description": "> Like is a Statamic addon that does something pretty neat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "vue-loader": "^15.10.0"
+  }
+}

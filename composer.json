@@ -1,0 +1,19 @@
+{
+    "name": "milanbauwens/like",
+    "autoload": {
+        "psr-4": {
+            "Milanbauwens\\Like\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Like",
+            "description": "Like button for Statamic"
+        },
+        "laravel": {
+            "providers": [
+                "Milanbauwens\\Like\\ServiceProvider"
+            ]
+        }
+    }
+}

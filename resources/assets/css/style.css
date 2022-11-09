@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.like__form {
+    margin: 5px 0;
+}
+
+.like__form--flex {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.like__button{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e2e2ef;
+    border-radius: 5px;
+    background-image: url(../icons/heart-outline.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.like__counter {
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(39, 40, 42);
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'SF Pro', sans-serif;
+    border: 2px solid #e2e2ef;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.02);
+    transition: all 0.3s ease;
+}
+
+.like__button--active {
+    background-image: url(../icons/heart-filled.svg);
+}
+
